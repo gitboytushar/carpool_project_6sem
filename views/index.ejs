@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="top">
+    <h1>Welcome to Poolit!</h1>
+  </div>
+  
+  <!-- platform info -->
+  <div class="center">
+    <div class="box">
+      <p>
+        Welcome to our platform, designed for daily commuters who own a vehicle and are interested in sharing their ride with
+        others. By offering to drop off passengers on their route, drivers can make their daily commute more enjoyable.
+      </p>
+      <p>
+        For passengers, our platform provides a unique opportunity to connect with car owners and share a ride with them, all
+        while reducing traffic congestion and minimizing their carbon footprint.
+      </p>
+    </div>
+  </div>
+
+  <div class="role">
+    <h2>Choose your role</h2>
+  </div>
+
+  <!-- main buttons for role selection -->
+  <div class="driver">
+    <form action="/dr" method="post">
+      <button type="submit" id="d" name="driver" value="dd">DRIVER</button>
+    </form>
+  </div>
+  
+  <div class="passenger">
+    <form action="/pas" method="post">
+      <button type="submit" id="p" name="passenger" value="pp">PASSENGER</button>
+    </form>
+  </div>
+  
+  <!-- contactUs -->
+  <div class="contact">
+    <form action="/contact" method="post">
+      <button type="submit" id="c" name="contact" value="c">CONTACT US</button>
+    </form>
+  </div>
+
+  <!-- graphic element -->
+  <div class="carImg">
+    <img src="receiptSide.png" alt="driver and passenger picture">
+  </div>
+  
+</body>
+
+</html>

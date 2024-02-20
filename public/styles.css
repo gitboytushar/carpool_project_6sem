@@ -1,0 +1,145 @@
+*{
+  background-color: #CDE990;
+}
+
+.top {
+  font-family: sans-serif;
+  position: absolute;
+  left: 560px;
+  text-decoration: overline underline;
+  text-underline-offset: 8px;
+}
+.role {
+  font-family: sans-serif;
+  position: absolute;
+  top: 200px;
+  left: 610px;
+}
+
+#c{
+  position: absolute;
+  top: 800px;
+  left: 1200px;
+  font-family: sans-serif;
+  padding: 5px;
+  font-size: 1.3vh;
+  border: solid black;
+  border-radius: 50px;
+}
+#c:hover {
+  background-color: black;
+  color: white;
+  font-size: 1.3vh;
+  font-weight: bold;
+  border: transparent;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.box{
+  font-family: sans-serif;
+  width: 70%;
+  padding: 10px;
+  border: none;
+  text-align: center;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+#d {
+  font-size: 24px;
+  font-family: sans-serif;
+  width: 180px;
+  height: 80px;
+  color: black;
+  border: 7px solid black;
+  border-radius: 50px;
+  position: absolute;
+  top: 310px;
+  left: 420px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#d:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#p {
+  font-size: 24px;
+  font-family: sans-serif;
+  width: 200px;
+  height: 80px;
+  color: black;
+  border: 7px solid black;
+  border-radius: 50px;
+  position: absolute;
+  top: 310px;
+  left: 820px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#p:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.carImg img{
+  background-color: transparent;
+  position: absolute;
+  height: 60vh;
+  top: 390px;
+  left: 485px;
+}
+
+@media (min-width: 1440px) {
+    .top {
+      top: 25px;
+      left: 760px;
+      font-size: 2vh;
+    }
+  
+    .role {
+      top: 305px;
+      left: 830px;
+    }
+
+    .box{
+      width: 75%;
+      font-size: 2.3vh;
+    }
+    .center{
+      height: 40vh;
+    }
+
+    #c {
+      top: 880px;
+      left: 1700px;
+      font-size: 1.3vh;
+    }
+  
+    #d {
+      top: 380px;
+      left: 595px;
+      
+    }
+  
+    #p {
+      top: 380px;
+      left: 1090px;
+    }
+  
+    .carImg img {
+      height: 70vh;
+      top: 420px;
+      left: 589px;
+    }
+}
